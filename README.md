@@ -1,5 +1,5 @@
-# Тестовый PreAuthorize
+# Test PreAuthorize
 
-**PreAuthorize не работает**
+**PreAuthorize doesn't work**
 
 

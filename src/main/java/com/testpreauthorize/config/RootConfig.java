@@ -7,6 +7,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan("com.testpreauthorize.security")
+@ComponentScan({"com.testpreauthorize.security"})
 public class RootConfig implements WebMvcConfigurer {
 }

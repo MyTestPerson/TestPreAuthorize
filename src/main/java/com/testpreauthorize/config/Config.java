@@ -11,8 +11,8 @@ import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
 
 import java.util.Properties;
 
-@Configuration
 @EnableWebMvc
+@Configuration
 @ComponentScan({"com.testpreauthorize.controller"})
 public class Config implements WebMvcConfigurer{
 

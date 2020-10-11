@@ -15,10 +15,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 
-    public SecurityConfig() {
-    }
-
-
     @Autowired
     UserDetailsService userDetailsService;
 

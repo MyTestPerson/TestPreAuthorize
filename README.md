@@ -1,5 +1,5 @@
 # Test PreAuthorize
 
-**PreAuthorize doesn't work**
+**PreAuthorize Fixed, now everything works.**
 
 

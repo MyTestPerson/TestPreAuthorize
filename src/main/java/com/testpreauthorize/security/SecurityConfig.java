@@ -30,9 +30,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .anyRequest()
-                .permitAll()
-
+//                .mvcMatchers("/admin").hasAnyRole("ADMIN")
+//                .mvcMatchers("/user").hasAnyRole("ADMIN", "USER")
+                .anyRequest().permitAll()
 
                 .and()
                 .formLogin()

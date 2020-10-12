@@ -14,7 +14,8 @@ public class HomeController {
     }
 
 
-    @PreAuthorize("isAuthenticated()")
+    @PreAuthorize("principal.username == 'user'")
+//    @Secured("ROLE_USER")
     @GetMapping(value = "/user")
     public String user () {
         return "/user";

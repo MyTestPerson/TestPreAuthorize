@@ -15,7 +15,7 @@ import java.util.Properties;
 @EnableWebMvc
 @Configuration
 @ComponentScan({"com.testpreauthorize.controller"})
-@EnableGlobalMethodSecurity(prePostEnabled = true)
+@EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
 public class Config implements WebMvcConfigurer{
 
 

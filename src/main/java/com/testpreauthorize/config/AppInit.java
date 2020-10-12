@@ -6,12 +6,12 @@ public final class AppInit extends AbstractAnnotationConfigDispatcherServletInit
 
     @Override
     protected final Class<?>[] getRootConfigClasses() {
-        return new Class<?>[]{ RootConfig.class};
+        return new Class<?>[]{ RootConfig.class };
     }
 
     @Override
     protected final Class<?>[] getServletConfigClasses() {
-        return new Class<?>[] { Config.class };
+        return new Class<?>[] { Config.class, MethodSecurityConfig.class };
     }
 
     @Override
